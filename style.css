@@ -118,3 +118,39 @@ body {
     height: calc(var(--mark-size)* 0.75);
     background-color: white;
 }
+
+.winning-message {
+    display: none;
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    flex-direction: column;
+}
+
+.winning-message button {
+    font-size: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: .25em .5em;
+    curson: pointer;
+    transition: background-color 0.3s;
+
+}
+
+.winning-message button:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.winning-message.show {
+    display: flex;
+}
