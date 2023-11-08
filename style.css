@@ -140,7 +140,7 @@ body {
     background-color: white;
     border: 1px solid black;
     padding: .25em .5em;
-    curson: pointer;
+    cursor: pointer;
     transition: background-color 0.3s;
 
 }
